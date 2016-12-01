@@ -1,0 +1,39 @@
+Arguments: 
+  /usr/bin/nodejs /usr/share/yarn/bin/yarn.js init
+
+PATH: 
+  /home/kam/.rbenv/shims:/home/kam/.rbenv/bin:/home/kam/bin:/home/kam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  0.16.1
+
+Node version: 
+  4.2.6
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+bower manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /home/kam/front/react_course/package.json: Unexpected end of input
+      at Object.parse (native)
+      at Object.<anonymous> (/usr/share/yarn/lib-legacy/util/fs.js:293:57)
+      at next (native)
+      at step (/usr/share/yarn/node_modules/babel-runtime/helpers/asyncToGenerator.js:17:30)
+      at /usr/share/yarn/node_modules/babel-runtime/helpers/asyncToGenerator.js:28:20
+      at run (/usr/share/yarn/node_modules/core-js/library/modules/es6.promise.js:87:22)
+      at /usr/share/yarn/node_modules/core-js/library/modules/es6.promise.js:100:28
+      at flush (/usr/share/yarn/node_modules/core-js/library/modules/_microtask.js:18:9)
+      at nextTickCallbackWith0Args (node.js:419:9)
+      at process._tickCallback (node.js:348:13)
